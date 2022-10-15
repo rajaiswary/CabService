@@ -1,0 +1,59 @@
+                                              CASE STUDY  - CAB SERVICE MANAGEMENT - FUNCTIONALITY AND TEST CASES
+
+SlNo                Functionality                          Test Case                                                                   Pass/Fail      Reason     
+
+1                   Landing Page
+
+             1.1    Login/SignUp                           Through email/google account                                                 Pass                                                                   
+             1.2    Account Verification                  
+
+               1.2.1  Two step verification                Through email                                                                Pass
+                                                           Through SMS                                                                  Pass
+                                                           Captcha                                                                      Pass
+
+
+
+2                   Booking Interface  
+
+             2.1    Pick and drop from the current location 
+                                                           Choose 'from' location                                                       Pass
+                                                           Choose 'drop off'location							Pass
+                                                           Schedule time								Pass
+             2.2    Daily Cab Service
+
+                 2.2.1 Display the message                 "The service is available only to organisations in the listed areas		Pass
+                                                            and for only weekly/monthly service"
+                
+                 2.2.2 Entering the location of the        Check the location from the preset lists.					Pass
+                       organisation-
+
+                    2.2.2.1 If the location is available   No of people									Pass
+	  				        	   destinations of the people 							Pass
+							   Dispatch time								Pass
+                                                           Shift timings								Pass
+                                                           choose weekly/monthly requirements						Pass
+                                                           preffered cab type - Van/tempo						Pass
+                    
+                    2.2.2.2 If locations not matched       display "Service not available"						Fail          Not Showing the message
+                                                           
+            
+
+3		    Payment details                        
+
+             3.1    Pick and drop service                  Credit/Debit card ,UPI Payment,Net Banking                                   Pass
+                                                           Cash on delivery in case of extra distance                                   Pass
+            
+             3.2    Daily Cab Service    
+
+               3.2.1  Monthly Payment                      Credit/Debit Card,UPI,Net Banking                                            Pass      
+               3.2.2  Weekly Payment                       Credit/Debit Card,UPI,Net Banking                                            Pass
+
+4                   Booking Confirmation                   Generate Booking Reference No                                                Pass
+                                                           Send ref number to email and phone number                                    Pass
+
+5                   Customer Rating and Feedback           Rating out of five stars                                                     Fail         Page is not working
+                                                           Feedback Comments                                                            Fail         Page is not working
+                                     
+
+ 
+                                                              
